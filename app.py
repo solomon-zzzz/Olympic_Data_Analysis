@@ -183,7 +183,3 @@ if user_menu == 'Athlete wise Analysis':
     st.pyplot(fig)
 print(nations_over_time.head())
 print(nations_over_time.columns)
-try:
-    print(nations_over_time.head())
-except NameError:
-    print("The variable 'nations_over_time' is not defined.")
